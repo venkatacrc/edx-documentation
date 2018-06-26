@@ -19,6 +19,7 @@ The User Retirement Workflow
 
 The user retirement workflow is a configurable pipeline of building-block
 APIs. These APIs are used to:
+
   * "forget" a retired user's PII
   * Prevent a retired user from logging back in
   * Prevent re-use of the username or email address of a retired user.
