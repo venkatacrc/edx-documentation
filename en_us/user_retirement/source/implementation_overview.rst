@@ -74,7 +74,7 @@ retirement state should always land in one of the terminal states.  At that
 point, either their entry should be cleaned up from the
 ``UserRetirementStatus`` table, or if the state is ``ERRORED``, the
 administrator needs to examine the error and resolve it. For more information,
-see :ref:`recovering-from-errored`).
+see :ref:`recovering-from-errored`.
 
 The User Experience
 *******************

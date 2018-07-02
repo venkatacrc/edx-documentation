@@ -81,7 +81,7 @@ Setup your execution environment:
 
 Generate a list of learners that are ready for retirement (those learners who
 have selected and confirmed account deletion and have been in the ``PENDING``
-state for the time specified ``cool_off_days``.
+state for the time specified ``cool_off_days``).
 
 .. code-block:: bash
 
@@ -115,7 +115,7 @@ from Jenkins.
 For more information about how we execute these scripts at edX, see the
 following wiki articles:
 
-* `GDPR Jenkins Implementation <https://openedx.atlassian.net/wiki/spaces/PLAT/pages/704872737/GDPR+Jenkins+Implementation>`_
+* `User Retirement Jenkins Implementation <https://openedx.atlassian.net/wiki/spaces/PLAT/pages/704872737/User+Retirement+Jenkins+Implementation>`_
 * `How to: retirement Jenkins jobs development and testing <https://openedx.atlassian.net/wiki/spaces/PLAT/pages/698221444/How+to+retirement+Jenkins+jobs+development+and+testing>`_
 
 And check out the Groovy DSL files we use to seed these jobs:
